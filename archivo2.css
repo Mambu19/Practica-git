@@ -1,0 +1,20 @@
+.special {
+  color: green;
+}
+
+#algun-id {
+  color:red;
+}
+
+p{border: 1px solid grey;}
+h1{border: 5px dotted blue;}
+h2{border: 10px dashed #000;}
+
+table, tr, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.otro, th{
+  padding: 15px;
+}

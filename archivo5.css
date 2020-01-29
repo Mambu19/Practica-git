@@ -1,0 +1,67 @@
+p{
+  margin: 5px
+}
+
+.parrafo2{
+  background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+  border: 5px dashed blue;
+}
+
+.parrafo3{
+  background: radial-gradient(blue, purple);
+  border-top: 2px solid green;
+  border-right: 4px dotted red;
+  border-bottom: 6px double gray;
+  border-left: 8px dashed black;
+}
+
+.parrafo4{
+  background: radial-gradient(circle at 20px 20px, red, yellow);
+  border: 6px double gray;
+  border-radius: 5px;
+}
+
+p{
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+
+p{
+  height: 200px;
+  width: 500px;
+}
+
+.parrafo5{
+  background-color: green;
+}
+
+.todo{
+  background-image: url('Imagenes/3.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.parrafo6{
+  background: linear-gradient(red, orange);
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.parrafo7{
+  background: linear-gradient(to left, red, orange 20%, yellow, blue, green);
+  position: absolute;
+  top: 1000px;
+  left: 1000px;
+}
+
+.img{
+  height: 50px;
+  width: 60px;
+  position:fixed;
+  top: 0px;
+  left: 1800px;
+}
